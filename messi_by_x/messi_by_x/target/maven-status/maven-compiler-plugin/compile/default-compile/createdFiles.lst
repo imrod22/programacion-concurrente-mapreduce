@@ -1,0 +1,3 @@
+fetch_information\messi_x_tweets\TweetAnalysis.class
+fetch_information\messi_x_tweets\TweetAnalyzerMapper.class
+fetch_information\messi_x_tweets\TweetAnalysisReducer.class
