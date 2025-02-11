@@ -12,9 +12,19 @@ public class BenchmarkingMaterial {
 	public static void main(String[] args) throws Exception {
 		
 		Configuration config = new Configuration();
+
+		//PRUEBA 2
+
+		//config.set("mapreduce.input.fileinputformat.split.maxsize", "16777216");
+		
+		//config.set("mapreduce.reduce.shuffle.input.buffer.percent", "0.8");
+		//config.set("mapreduce.reduce.shuffle.merge.percent", "0.6");
+		//config.set("mapreduce.reduce.shuffle.parallelcopies", "4");
+		//config.set("mapreduce.job.reduces", "4");
+
 		Job job = Job.getInstance(config, "Benchmarking Catodo Bateria");
 
-		//CONFIGURACION DEL JOB: Manipular la creacion de procesos para las 2 fases y balanceo de recursos.
+		//CONFIGURACION DEL JOB: Manipular la creacion de procesos para las 2 fases y balanceo de recursos - PRUEBA 3.
 		//job.setNumReduceTasks(4);
 
 		//job.getConfiguration().setLong("mapreduce.input.fileinputformat.split.minsize", 128 * 1024 * 1024);
