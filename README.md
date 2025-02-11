@@ -18,11 +18,19 @@ Benchmark: /archivos_utilizados/benchmarking_bateria/
 
     Medidas: /archivos_utilizados/benchmarking_bateria/data --version reducida (detalle) y version completa (compress)
 
+    solucion secuencial: bateria/catodo_li_s_benchmarking/BenchmarkingSecuencial.java
+
+    solucion concurrente: bateria/catodo_li_s_benchmarking/BenchmarkingConcurrenteDeep.java
+
 Messi X: /archivos_utilzados/messi_x/
 
     tweets: /archivos_utilizados/data --version detalle (compact) y version completa (tweets_messi)
 
     dependencias: /archivos_utilizados/libs (falta coreNLP)
+
+    solucion secuencial (CoreNLP): _nomapreduce/TweetAnalysis.java
+
+    solucion concurrente (CoreNLP): _nomapreduce/TweetAnalysisDeepConcurrencia.java
 
 ## Stack Tecnica
 
